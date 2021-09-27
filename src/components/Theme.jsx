@@ -3,7 +3,7 @@ import { Box, Button, ButtonGroup } from '@material-ui/core';
 
 export default function Theme({darkState,handleThemeChange}) {
   return (
-    <Box p={3}>
+    <Box p={1}>
       <ButtonGroup
         fullWidth
         variant="text"

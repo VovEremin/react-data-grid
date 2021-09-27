@@ -51,13 +51,13 @@ export default function Body({ darkState }) {
 
     return <>
         <Paper elevation={12}>
-            <Box mt={12} p={3}>
+            <Box mt={12} p={3} pt={1}>
                 <Grid container
                     direction="column"
                     justifyContent="center"
                     alignItems="center"
                 >
-                    <Box width={'90%'} p={3}>
+                    <Box width={'90%'} p={3} pt={0}>
                         <Grid
                             container
                             direction="row"
@@ -152,7 +152,7 @@ export default function Body({ darkState }) {
                             />
                         
                         
-                            <Box width={200}>
+                            <Box width={200} mt={3}>
                                 <Button
                                     fullWidth 
                                     variant="outlined"
